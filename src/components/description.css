@@ -1,0 +1,35 @@
+.box-description {
+  width: 360px;
+  height: 280px;
+  color: #123337;
+}
+
+.img-description {
+  /* border: 1px red solid; */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(#ffd536, #ffffff 70%);
+}
+
+.text {
+  font-weight: 300;
+}
+
+.theme {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.img-svg {
+  fill: #123337;
+  width: 45px;
+  height: 45px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}

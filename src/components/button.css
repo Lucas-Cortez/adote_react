@@ -1,0 +1,42 @@
+.primary {
+  background-color: #123337;
+  color: #ffffff;
+  border: none;
+  height: 50px;
+}
+
+.primary:hover {
+  background-color: #5a6668;
+}
+
+.secondary {
+  background: none;
+  border: 2px #1d3538 solid;
+  color: #123337;
+}
+
+.secondary:hover {
+  background-color: #123337;
+  color: #ffffff;
+}
+
+.border-25 {
+  border-radius: 25px;
+}
+
+.border-10 {
+  border-radius: 10px;
+}
+
+.button {
+  height: 50px;
+  font-size: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.img {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
