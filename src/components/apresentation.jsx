@@ -17,16 +17,13 @@ export default (props) => {
             <p>O que acha de me conhecer mais um pouquinho?</p>
           </div>
           <a href="#about">
-            <Button
-              label="Quero conhece-lo"
-              className="border-25 button primary mb-10"
-            />
+            <Button label="Quero conhece-lo" className="border-25 button primary mb-10" />
           </a>
         </div>
       </div>
 
       <div className="box-golden">
-        <img src={golden} className="golden" />
+        <img alt="dog" src={golden} className="golden" />
         <div className="shadow"></div>
       </div>
     </div>

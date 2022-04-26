@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default (props) => {
   return (
     <div>
-      <a id="about" className="title">
+      <a id="about" className="title" href="/">
         Sobre mim...
       </a>
       <div className="about flex-container">
@@ -81,17 +81,11 @@ export default (props) => {
       <span className="title">E ai, o que acha de sermos melhores amigos?</span>
       <div className="pagination">
         <Link to="/recusado">
-          <Button
-            label="Não vai ser dessa vez amiguinho"
-            className="button secondary border-10"
-          />
+          <Button label="Não vai ser dessa vez amiguinho" className="button secondary border-10" />
         </Link>
         <div className="space"></div>
         <Link to="/aceito">
-          <Button
-            label="Estou animado para meu novo amiguinho!"
-            className="button primary border-10"
-          />
+          <Button label="Estou animado para meu novo amiguinho!" className="button primary border-10" />
         </Link>
       </div>
     </div>
